@@ -1,5 +1,8 @@
 import pymongo
-client_cloud = pymongo.MongoClient("mongodb+srv://root:root@cluster0.9bpnr.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+
+# credentials removed
+client_cloud = pymongo.MongoClient("mongodb+srv://root:<password>@<clusterName>.9bpnr.mongodb.net/<dbName>?retryWrites=true&w=majority")
+
 db = client_cloud.test
 
 #Creating a database/collection
